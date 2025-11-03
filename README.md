@@ -39,7 +39,7 @@ Make sure you have **Python 3.9** or newer installed.
 
 The project runs as a sequential pipeline. Run the scripts from the root directory in the following order:
 ```bash
-### 1. Ingest PDF
+1. Ingest PDF
 Extracts and previews text/characters from your PDF files.
 
 python src/ingest.py
@@ -92,4 +92,5 @@ python scripts/raw_to_readable.py "outputs/*.json"
 Sudhanshu Saroj
 
 IIT Kanpur | Electrical Engineering
+
 
