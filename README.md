@@ -13,17 +13,23 @@ pip install -r requirements.txt
 ```
 How to Use
 1. Ingest PDF
+   
 python src/ingest.py {Extract and preview text/characters from your PDF files.}
-2. Chunk and Clean Text
+3. Chunk and Clean Text
+
 python src/chunker.py {Chunk and clean the extracted text for downstream tasks.}
-3. Build Index
+4. Build Index
+
 python src/indexer.py
 python src/make_index.py {Create and store vector indexes for efficient retrieval.}
-4. Fine-tune Model
+5. Fine-tune Model
+
 python src/fine_tune.py {Fine-tune your model on the processed and indexed data.}
-5. Generate Output
+6. Generate Output
+
 python src/generate_from_gold.py {Generate model outputs based on the fine-tuned model.}
-6. Convert to Human-readable Text
+7. Convert to Human-readable Text
+
 python scripts/raw_to_readable.py "outputs/*.json" {Convert generated JSON outputs into readable .txt study materials.}
 
 # Project Structure
@@ -44,6 +50,7 @@ outputs/
 # Sudhanshu Saroj
 IIT Kanpur | Electrical Engineering
 Round 2 Task — Data Science Internship
+
 
 
 
