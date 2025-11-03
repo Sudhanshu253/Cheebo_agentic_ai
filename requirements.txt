@@ -1,0 +1,16 @@
+torch
+transformers
+peft
+datasets
+accelerate
+faiss-cpu
+sentence-transformers
+pymupdf
+pytesseract
+pdfplumber
+langchain
+streamlit
+tqdm
+scikit-learn
+evaluate
+Pillow
